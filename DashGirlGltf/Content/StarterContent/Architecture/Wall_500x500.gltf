@@ -1,0 +1,131 @@
+{
+	"asset":
+	{
+		"version": "2.0",
+		"generator": "Unreal Engine 5.0.0 glTF Exporter 1.3.0"
+	},
+	"scene": 0,
+	"accessors": [
+		{
+			"bufferView": 0,
+			"count": 420,
+			"type": "SCALAR",
+			"componentType": 5121
+		},
+		{
+			"bufferView": 1,
+			"count": 120,
+			"type": "VEC3",
+			"componentType": 5126,
+			"min": [ 0, -6.12323385e-18, -0.099999994 ],
+			"max": [ 5, 4.99999952, 0.099999994 ]
+		},
+		{
+			"bufferView": 2,
+			"count": 120,
+			"type": "VEC3",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 3,
+			"count": 120,
+			"type": "VEC4",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 4,
+			"count": 120,
+			"type": "VEC2",
+			"componentType": 5126
+		},
+		{
+			"bufferView": 5,
+			"count": 120,
+			"type": "VEC2",
+			"componentType": 5126
+		}
+	],
+	"buffers": [
+		{
+			"uri": "Wall_500x500.bin",
+			"byteLength": 7140
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 420,
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1440,
+			"byteOffset": 420,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1440,
+			"byteOffset": 1860,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1920,
+			"byteOffset": 3300,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 960,
+			"byteOffset": 5220,
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 960,
+			"byteOffset": 6180,
+			"target": 34962
+		}
+	],
+	"materials": [
+		{
+			"name": "M_Basic_Wall",
+			"pbrMetallicRoughness":
+			{
+				"baseColorFactor": [ 0.810344994, 0.787877977, 0.654682994, 1 ],
+				"metallicFactor": 0,
+				"roughnessFactor": 0.640708029
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "Wall_500x500",
+			"primitives": [
+				{
+					"attributes":
+					{
+						"POSITION": 1,
+						"NORMAL": 2,
+						"TANGENT": 3,
+						"TEXCOORD_0": 4,
+						"TEXCOORD_1": 5
+					},
+					"indices": 0,
+					"material": 0
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"mesh": 0
+		}
+	],
+	"scenes": [
+		{
+			"nodes": [ 0 ]
+		}
+	]
+}
